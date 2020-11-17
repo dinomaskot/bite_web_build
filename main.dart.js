@@ -37846,7 +37846,7 @@ ww:function(){var s=0,r=P.K(t.Wv),q,p=2,o,n=[],m=this,l,k,j,i
 var $async$ww=P.G(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return P.S(G.Dv("https://my-json-server.typicode.com/dinomaskot/bite_web/artists"),$async$ww)
+return P.S(G.Dv("https://admin.biteofart.org/api/getArtists"),$async$ww)
 case 7:l=b
 if(l.b===200){k=l
 k=m.aec(B.Du(U.Dk(k.e).c.a.h(0,"charset")).cQ(0,k.x))
@@ -37919,7 +37919,7 @@ return C.c.S("",J.aod(a[0]))},
 wx:function(){var s=0,r=P.K(t.Ex),q,p=this,o
 var $async$wx=P.G(function(a,b){if(a===1)return P.H(b,r)
 while(true)switch(s){case 0:s=3
-return P.S(G.Dv("https://my-json-server.typicode.com/dinomaskot/bite_web/events"),$async$wx)
+return P.S(G.Dv("https://admin.biteofart.org/api/getEvents?last=300"),$async$wx)
 case 3:o=b
 if(o.b===200){q=p.xu(B.Du(U.Dk(o.e).c.a.h(0,"charset")).cQ(0,o.x))
 s=1
@@ -37931,7 +37931,7 @@ abv:function(a){var s=0,r=P.K(t.Su),q,p=2,o,n=[],m=this,l,k,j,i
 var $async$wA=P.G(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return P.S(G.Dv(C.c.S("https://my-json-server.typicode.com/dinomaskot/bite_web/events?id=",a)),$async$wA)
+return P.S(G.Dv(C.c.S("http://admin.biteofart.org/api/getEvents?id=",a)),$async$wA)
 case 7:l=c
 if(l.b===200){k=l
 k=m.xu(B.Du(U.Dk(k.e).c.a.h(0,"charset")).cQ(0,k.x))[0]
@@ -37979,7 +37979,7 @@ B.iT.prototype={
 wy:function(){var s=0,r=P.K(t.fE),q,p=this,o
 var $async$wy=P.G(function(a,b){if(a===1)return P.H(b,r)
 while(true)switch(s){case 0:s=3
-return P.S(G.Dv("https://my-json-server.typicode.com/dinomaskot/bite_web/galeries"),$async$wy)
+return P.S(G.Dv("https://admin.biteofart.org/api/getGallerists"),$async$wy)
 case 3:o=b
 if(o.b===200){q=p.xu(B.Du(U.Dk(o.e).c.a.h(0,"charset")).cQ(0,o.x))
 s=1
@@ -37999,7 +37999,7 @@ B.fH.prototype={
 wz:function(){var s=0,r=P.K(t.VP),q,p=this,o
 var $async$wz=P.G(function(a,b){if(a===1)return P.H(b,r)
 while(true)switch(s){case 0:s=3
-return P.S(G.Dv("http://localhost:3000/news"),$async$wz)
+return P.S(G.Dv("https://admin.biteofart.org/api/getNews?last=300"),$async$wz)
 case 3:o=b
 if(o.b===200){q=p.PK(B.Du(U.Dk(o.e).c.a.h(0,"charset")).cQ(0,o.x))
 s=1
@@ -38011,7 +38011,7 @@ abw:function(a){var s=0,r=P.K(t.tU),q,p=2,o,n=[],m=this,l,k,j,i
 var $async$wC=P.G(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return P.S(G.Dv(C.c.S("http://localhost:3000/news?id=",a)),$async$wC)
+return P.S(G.Dv(C.c.S("https://admin.biteofart.org/api/getNews?id=",a)),$async$wC)
 case 7:l=c
 if(l.b===200){k=l
 k=m.PK(B.Du(U.Dk(k.e).c.a.h(0,"charset")).cQ(0,k.x))[0]
@@ -38113,12 +38113,12 @@ q=T.a1(T.am(H.a([T.a1(M.h(C.En,M.h(o,new T.el(3,T.nM(C.H,L.W(n.r.a.h(0,"about"),
 p=b.O(m).f
 s=M.h(o,T.b2(H.a([r,q,T.a1(M.h(o,T.am(H.a([M.h(o,T.b2(H.a([M.h(o,T.am(H.a([N.ay(U.bF("assets/icons/about/about01.png",C.o,o,o,75),C.O,o,o,o,0,new D.ad7(),new V.C(15,15,15,15),new X.de(C.B)),M.h(o,o,o,o,o,10,o,o,o),M.h(C.H,L.W(n.r.a.h(0,"aboutIcon1"),o,o,o,A.ax(o,o,C.O,o,o,o,o,o,o,o,o,20,o,C.A,o,o,!0,o,o,o,o,o,o),C.aG),o,o,o,50,o,o,o)],i),C.j,C.a8,C.h),o,o,o,o,o,o,150),M.h(o,T.am(H.a([N.ay(U.bF("assets/icons/about/about02.png",C.o,o,o,75),C.O,o,o,o,0,new D.ad8(),new V.C(15,15,15,15),new X.de(C.B)),M.h(o,o,o,o,o,10,o,o,o),M.h(C.H,L.W(n.r.a.h(0,"aboutIcon2"),o,o,o,A.ax(o,o,C.O,o,o,o,o,o,o,o,o,20,o,C.A,o,o,!0,o,o,o,o,o,o),C.aG),o,o,o,50,o,o,o)],i),C.j,C.a8,C.h),o,o,o,o,o,o,150),M.h(o,T.am(H.a([N.ay(U.bF("assets/icons/about/about03.png",C.o,o,o,75),C.O,o,o,o,0,new D.ad9(),new V.C(15,15,15,15),new X.de(C.B)),M.h(o,o,o,o,o,10,o,o,o),M.h(C.H,L.W(n.r.a.h(0,"aboutIcon3"),o,o,o,A.ax(o,o,C.O,o,o,o,o,o,o,o,o,20,o,C.A,o,o,!0,o,o,o,o,o,o),C.aG),o,o,o,50,o,o,o)],i),C.j,C.a8,C.h),o,o,o,o,o,o,150),M.h(o,T.am(H.a([N.ay(U.bF("assets/icons/about/about04.png",C.o,o,o,75),C.O,o,o,o,0,new D.adc(),new V.C(15,15,15,15),new X.de(C.B)),M.h(o,o,o,o,o,10,o,o,o),M.h(C.H,L.W(n.r.a.h(0,"aboutIcon4"),o,o,o,A.ax(o,o,C.O,o,o,o,o,o,o,o,o,20,o,C.A,o,o,!0,o,o,o,o,o,o),C.aG),o,o,o,50,o,o,o)],i),C.j,C.a8,C.h),o,o,o,o,o,o,150)],i),C.j,C.ir,C.h,o),o,o,o,200,o,o,o),T.am(H.a([L.W(n.r.a.h(0,"aboutbiteheader"),o,o,o,A.ax(o,o,o,o,o,o,o,o,o,o,o,o,o,C.ay,o,o,!0,o,o,o,o,o,o),C.j4),M.h(o,o,o,o,o,20,o,o,o),L.W(n.r.a.h(0,"aboutbitedesc"),o,o,o,A.ax(o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,!0,o,o,o,o,o,o),C.kP)],i),C.T,C.l,C.h)],i),C.j,C.ir,C.h),o,o,o,p.a.a*9/16+80+32,o,o,o),20),T.a1(M.h(o,o,o,o,o,o,o,o,o),3),T.a1(M.h(o,o,o,o,o,o,o,o,o),1)],i),C.j,C.l,C.h,o),o,o,o,s,o,o,o)
 m=b.O(m).f.a.a>1200?420:300*(b.O(m).f.a.a/1500)+180
-return M.fj(E.ji(T.aV(T.am(H.a([M.h(o,T.am(H.a([k,j,s,M.h(o,T.b2(H.a([T.a1(M.h(o,o,o,o,o,o,o,o,o),1),T.a1(T.am(H.a([T.a1(M.h(C.dE,M.h(o,new T.el(3,T.nM(C.H,L.W(n.r.a.h(0,"partners"),o,o,o,A.ax(o,o,C.O,o,o,o,o,o,o,o,o,o,o,C.ay,o,o,!0,-0.9,o,o,o,o,o),o),C.E,C.pk),o),o,o,o,o,o,o,160),o,o,o,o,o,o,o),9)],i),C.T,C.l,C.h),3),T.a1(T.am(H.a([M.h(o,T.am(H.a([T.b2(H.a([T.a1(N.ay(U.bF("assets/icons/partnership/Asset2.png",o,o,100,o),o,o,o,C.G,o,new D.add(),o,o),1)],i),C.j,C.l,C.h,o),T.b2(H.a([T.a1(N.ay(U.bF("assets/icons/partnership/Asset1.png",o,o,o,o),o,o,o,o,o,new D.ade(),o,o),1),T.a1(N.ay(U.bF("assets/icons/partnership/Asset3.png",o,o,o,o),o,o,o,o,o,new D.adf(),o,o),1),T.a1(N.ay(U.bF("assets/icons/partnership/Asset9.png",o,o,o,o),o,o,o,o,o,new D.adg(),o,o),1),T.a1(N.ay(U.bF("assets/icons/partnership/Asset8.png",o,o,o,o),o,o,o,o,o,new D.adh(),o,o),1)],i),C.j,C.l,C.h,o),T.b2(H.a([T.a1(N.ay(U.bF("assets/icons/partnership/Asset4.png",o,o,o,o),o,o,o,o,o,new D.adi(),o,o),1),T.a1(N.ay(U.bF("assets/icons/partnership/Asset6.png",o,o,o,o),o,o,o,o,o,new D.adj(),o,o),1),T.a1(N.ay(U.bF("assets/icons/partnership/Asset5.png",o,o,o,o),o,o,o,o,o,new D.ada(),o,o),1),T.a1(N.ay(U.bF("assets/icons/partnership/Asset7.png",o,o,o,o),o,o,o,o,o,new D.adb(),o,o),1)],i),C.j,C.l,C.h,o)],i),C.j,C.l,C.h),o,o,o,o,o,o,o)],i),C.j,C.kc,C.h),20),T.a1(M.h(o,o,o,o,o,o,o,o,o),3),T.a1(M.h(o,o,o,o,o,o,o,o,o),1)],i),C.j,C.l,C.h,o),o,o,o,m,o,o,o),M.h(o,new X.id("",o),o,o,o,o,o,o,o)],i),C.j,C.l,C.h),o,o,o,o,o,o,l),M.h(o,new N.nQ(o),o,o,o,o,o,o,o)],i),C.j,C.l,C.h),o,o)),o,o)}}
+return M.fj(E.ji(T.aV(T.am(H.a([M.h(o,T.am(H.a([k,j,s,M.h(o,T.b2(H.a([T.a1(M.h(o,o,o,o,o,o,o,o,o),1),T.a1(T.am(H.a([T.a1(M.h(C.dE,M.h(o,new T.el(3,T.nM(C.H,L.W(n.r.a.h(0,"partners"),o,o,o,A.ax(o,o,C.O,o,o,o,o,o,o,o,o,o,o,C.ay,o,o,!0,-0.9,o,o,o,o,o),o),C.E,C.pk),o),o,o,o,o,o,o,160),o,o,o,o,o,o,o),9)],i),C.T,C.l,C.h),3),T.a1(T.am(H.a([M.h(o,T.am(H.a([T.b2(H.a([T.a1(N.ay(U.bF("assets/icons/partnership/Asset2.png",o,o,100,o),o,o,o,C.G,o,new D.add(),o,o),1)],i),C.j,C.l,C.h,o),T.b2(H.a([T.a1(N.ay(U.bF("assets/icons/partnership/Asset1.png",o,o,o,o),o,o,o,o,o,new D.ade(),o,o),1),T.a1(N.ay(U.bF("assets/icons/partnership/Asset3.png",o,o,o,o),o,o,o,o,o,new D.adf(),o,o),1),T.a1(N.ay(U.bF("assets/icons/partnership/Asset9.png",o,o,o,o),o,o,o,o,o,new D.adg(),o,o),1),T.a1(N.ay(U.bF("assets/icons/partnership/Asset8.png",o,o,o,o),o,o,o,o,o,new D.adh(),o,o),1)],i),C.j,C.l,C.h,o),T.b2(H.a([T.a1(N.ay(U.bF("assets/icons/partnership/Asset4.png",o,o,o,o),o,o,o,o,o,new D.adi(),o,o),1),T.a1(N.ay(U.bF("assets/icons/partnership/Asset6.png",o,o,o,o),o,o,o,o,o,new D.adj(),o,o),1),T.a1(N.ay(U.bF("assets/icons/partnership/Asset5.png",o,o,o,o),o,o,o,o,o,new D.ada(),o,o),1),T.a1(N.ay(U.bF("assets/icons/partnership/Asset7.png",o,o,o,o),o,o,o,o,o,new D.adb(),o,o),1)],i),C.j,C.l,C.h,o)],i),C.j,C.l,C.h),o,o,o,o,o,o,o)],i),C.j,C.kc,C.h),20),T.a1(M.h(o,o,o,o,o,o,o,o,o),3),T.a1(M.h(o,o,o,o,o,o,o,o,o),1)],i),C.j,C.l,C.h,o),o,o,o,m,o,o,o),M.h(o,new X.id("http://biteofart.org/",o),o,o,o,o,o,o,o)],i),C.j,C.l,C.h),o,o,o,o,o,o,l),M.h(o,new N.nQ(o),o,o,o,o,o,o,o)],i),C.j,C.l,C.h),o,o)),o,o)}}
 D.ad7.prototype={
 $0:function(){$.bj().b9("open",[u.Y])},
 $S:1}
 D.ad8.prototype={
-$0:function(){$.bj().b9("open",["https://biteofart.org/en/news/12"])},
+$0:function(){$.bj().b9("open",["https://biteofart.org/#/news/12"])},
 $S:1}
 D.ad9.prototype={
 $0:function(){$.bj().b9("open",[$.ao5()])},
@@ -38163,12 +38163,12 @@ p:function(a){this.d.p(0)
 this.e.p(0)
 this.aM(0)},
 G:function(a,b){var s=null,r=L.dp(b,C.aH,t.F),q=t.t
-return M.fj(E.ji(T.aV(T.am(H.a([M.h(s,T.am(H.a([new M.iW(s),M.h(C.H,L.W(r.r.a.h(0,"about"),s,s,s,A.ax(s,s,C.O,s,s,s,s,s,s,s,s,44,s,C.ay,s,s,!0,-0.9,s,s,s,s,s),s),s,s,s,s,s,s,s),M.h(s,T.am(H.a([T.b2(H.a([T.a1(T.am(H.a([T.b2(H.a([M.h(s,T.am(H.a([N.ay(U.bF("assets/icons/about/about01.png",C.o,s,s,75),C.O,s,s,s,0,new T.acV(),new V.C(15,15,15,15),new X.de(C.B)),M.h(s,s,s,s,s,10,s,s,s),M.h(C.H,L.W(r.r.a.h(0,"aboutIcon1"),s,s,s,A.ax(s,s,C.O,s,s,s,s,s,s,s,s,20,s,C.A,s,s,!0,s,s,s,s,s,s),C.aG),s,s,s,50,s,s,s)],q),C.j,C.a8,C.h),s,s,s,s,s,s,150),M.h(s,T.am(H.a([N.ay(U.bF("assets/icons/about/about02.png",C.o,s,s,75),C.O,s,s,s,0,new T.acW(),new V.C(15,15,15,15),new X.de(C.B)),M.h(s,s,s,s,s,10,s,s,s),M.h(C.H,L.W(r.r.a.h(0,"aboutIcon2"),s,s,s,A.ax(s,s,C.O,s,s,s,s,s,s,s,s,20,s,C.A,s,s,!0,s,s,s,s,s,s),C.aG),s,s,s,50,s,s,s)],q),C.j,C.a8,C.h),s,s,s,s,s,new V.C(20,20,20,20),150)],q),C.j,C.ir,C.h,s),T.b2(H.a([M.h(s,T.am(H.a([N.ay(U.bF("assets/icons/about/about03.png",C.o,s,s,75),C.O,s,s,s,0,new T.acX(),new V.C(15,15,15,15),new X.de(C.B)),M.h(s,s,s,s,s,10,s,s,s),M.h(C.H,L.W(r.r.a.h(0,"aboutIcon3"),s,s,s,A.ax(s,s,C.O,s,s,s,s,s,s,s,s,20,s,C.A,s,s,!0,s,s,s,s,s,s),C.aG),s,s,s,50,s,s,s)],q),C.j,C.a8,C.h),s,s,s,s,s,new V.C(20,20,20,20),150),M.h(s,T.am(H.a([N.ay(U.bF("assets/icons/about/about04.png",C.o,s,s,75),C.O,s,s,s,0,new T.ad_(),new V.C(15,15,15,15),new X.de(C.B)),M.h(s,s,s,s,s,10,s,s,s),M.h(C.H,L.W(r.r.a.h(0,"aboutIcon4"),s,s,s,A.ax(s,s,C.O,s,s,s,s,s,s,s,s,20,s,C.A,s,s,!0,s,s,s,s,s,s),C.aG),s,s,s,50,s,s,s)],q),C.j,C.a8,C.h),s,s,s,s,s,new V.C(20,20,20,20),150)],q),C.j,C.ir,C.h,s),T.am(H.a([L.W(r.r.a.h(0,"aboutbiteheader"),s,s,s,A.ax(s,s,s,s,s,s,s,s,s,s,s,s,s,C.ay,s,s,!0,s,s,s,s,s,s),C.j4),M.h(s,s,s,s,s,20,s,s,s),L.W(r.r.a.h(0,"aboutbitedesc"),s,s,s,A.ax(s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s),C.kP)],q),C.T,C.l,C.h)],q),C.j,C.ir,C.h),1)],q),C.j,C.l,C.h,s)],q),C.j,C.l,C.h),s,s,s,s,s,s,s),M.h(s,s,s,s,s,20,s,s,s),M.h(C.H,L.W(r.r.a.h(0,"partners"),s,s,s,A.ax(s,s,C.O,s,s,s,s,s,s,s,s,44,s,C.ay,s,s,!0,-0.9,s,s,s,s,s),s),s,s,s,s,s,new V.C(0,10,0,10),s),M.h(s,T.b2(H.a([T.a1(T.am(H.a([T.b2(H.a([T.a1(N.ay(U.bF("assets/icons/partnership/Asset2.png",s,s,s,s),s,s,s,s,s,new T.ad0(),s,s),1)],q),C.j,C.l,C.h,s),T.b2(H.a([T.a1(N.ay(U.bF("assets/icons/partnership/Asset1.png",s,s,s,s),s,s,s,s,s,new T.ad1(),s,s),1),T.a1(N.ay(U.bF("assets/icons/partnership/Asset3.png",s,s,s,s),s,s,s,s,s,new T.ad2(),s,s),1)],q),C.j,C.l,C.h,s),T.b2(H.a([T.a1(N.ay(U.bF("assets/icons/partnership/Asset9.png",s,s,s,s),s,s,s,s,s,new T.ad3(),s,s),1),T.a1(N.ay(U.bF("assets/icons/partnership/Asset8.png",s,s,s,s),s,s,s,s,s,new T.ad4(),s,s),1)],q),C.j,C.l,C.h,s),T.b2(H.a([T.a1(N.ay(U.bF("assets/icons/partnership/Asset4.png",s,s,s,s),s,s,s,s,s,new T.ad5(),s,s),1),T.a1(N.ay(U.bF("assets/icons/partnership/Asset6.png",s,s,s,s),s,s,s,s,s,new T.ad6(),s,s),1)],q),C.j,C.l,C.h,s),T.b2(H.a([T.a1(N.ay(U.bF("assets/icons/partnership/Asset5.png",s,s,s,s),s,s,s,s,s,new T.acY(),s,s),1),T.a1(N.ay(U.bF("assets/icons/partnership/Asset7.png",s,s,s,s),s,s,s,s,s,new T.acZ(),s,s),1)],q),C.j,C.l,C.h,s)],q),C.j,C.l,C.h),1)],q),C.j,C.l,C.h,s),s,s,s,s,s,s,s),M.h(s,new X.id("",s),s,s,s,s,s,s,s)],q),C.j,C.l,C.h),s,s,s,s,s,new V.C(8,8,8,8),s),M.h(s,new N.nQ(s),s,s,s,s,s,s,s)],q),C.j,C.l,C.h),s,s)),M.rE(b),s)}}
+return M.fj(E.ji(T.aV(T.am(H.a([M.h(s,T.am(H.a([new M.iW(s),M.h(C.H,L.W(r.r.a.h(0,"about"),s,s,s,A.ax(s,s,C.O,s,s,s,s,s,s,s,s,44,s,C.ay,s,s,!0,-0.9,s,s,s,s,s),s),s,s,s,s,s,s,s),M.h(s,T.am(H.a([T.b2(H.a([T.a1(T.am(H.a([T.b2(H.a([M.h(s,T.am(H.a([N.ay(U.bF("assets/icons/about/about01.png",C.o,s,s,75),C.O,s,s,s,0,new T.acV(),new V.C(15,15,15,15),new X.de(C.B)),M.h(s,s,s,s,s,10,s,s,s),M.h(C.H,L.W(r.r.a.h(0,"aboutIcon1"),s,s,s,A.ax(s,s,C.O,s,s,s,s,s,s,s,s,20,s,C.A,s,s,!0,s,s,s,s,s,s),C.aG),s,s,s,50,s,s,s)],q),C.j,C.a8,C.h),s,s,s,s,s,s,150),M.h(s,T.am(H.a([N.ay(U.bF("assets/icons/about/about02.png",C.o,s,s,75),C.O,s,s,s,0,new T.acW(),new V.C(15,15,15,15),new X.de(C.B)),M.h(s,s,s,s,s,10,s,s,s),M.h(C.H,L.W(r.r.a.h(0,"aboutIcon2"),s,s,s,A.ax(s,s,C.O,s,s,s,s,s,s,s,s,20,s,C.A,s,s,!0,s,s,s,s,s,s),C.aG),s,s,s,50,s,s,s)],q),C.j,C.a8,C.h),s,s,s,s,s,new V.C(20,20,20,20),150)],q),C.j,C.ir,C.h,s),T.b2(H.a([M.h(s,T.am(H.a([N.ay(U.bF("assets/icons/about/about03.png",C.o,s,s,75),C.O,s,s,s,0,new T.acX(),new V.C(15,15,15,15),new X.de(C.B)),M.h(s,s,s,s,s,10,s,s,s),M.h(C.H,L.W(r.r.a.h(0,"aboutIcon3"),s,s,s,A.ax(s,s,C.O,s,s,s,s,s,s,s,s,20,s,C.A,s,s,!0,s,s,s,s,s,s),C.aG),s,s,s,50,s,s,s)],q),C.j,C.a8,C.h),s,s,s,s,s,new V.C(20,20,20,20),150),M.h(s,T.am(H.a([N.ay(U.bF("assets/icons/about/about04.png",C.o,s,s,75),C.O,s,s,s,0,new T.ad_(),new V.C(15,15,15,15),new X.de(C.B)),M.h(s,s,s,s,s,10,s,s,s),M.h(C.H,L.W(r.r.a.h(0,"aboutIcon4"),s,s,s,A.ax(s,s,C.O,s,s,s,s,s,s,s,s,20,s,C.A,s,s,!0,s,s,s,s,s,s),C.aG),s,s,s,50,s,s,s)],q),C.j,C.a8,C.h),s,s,s,s,s,new V.C(20,20,20,20),150)],q),C.j,C.ir,C.h,s),T.am(H.a([L.W(r.r.a.h(0,"aboutbiteheader"),s,s,s,A.ax(s,s,s,s,s,s,s,s,s,s,s,s,s,C.ay,s,s,!0,s,s,s,s,s,s),C.j4),M.h(s,s,s,s,s,20,s,s,s),L.W(r.r.a.h(0,"aboutbitedesc"),s,s,s,A.ax(s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s),C.kP)],q),C.T,C.l,C.h)],q),C.j,C.ir,C.h),1)],q),C.j,C.l,C.h,s)],q),C.j,C.l,C.h),s,s,s,s,s,s,s),M.h(s,s,s,s,s,20,s,s,s),M.h(C.H,L.W(r.r.a.h(0,"partners"),s,s,s,A.ax(s,s,C.O,s,s,s,s,s,s,s,s,44,s,C.ay,s,s,!0,-0.9,s,s,s,s,s),s),s,s,s,s,s,new V.C(0,10,0,10),s),M.h(s,T.b2(H.a([T.a1(T.am(H.a([T.b2(H.a([T.a1(N.ay(U.bF("assets/icons/partnership/Asset2.png",s,s,s,s),s,s,s,s,s,new T.ad0(),s,s),1)],q),C.j,C.l,C.h,s),T.b2(H.a([T.a1(N.ay(U.bF("assets/icons/partnership/Asset1.png",s,s,s,s),s,s,s,s,s,new T.ad1(),s,s),1),T.a1(N.ay(U.bF("assets/icons/partnership/Asset3.png",s,s,s,s),s,s,s,s,s,new T.ad2(),s,s),1)],q),C.j,C.l,C.h,s),T.b2(H.a([T.a1(N.ay(U.bF("assets/icons/partnership/Asset9.png",s,s,s,s),s,s,s,s,s,new T.ad3(),s,s),1),T.a1(N.ay(U.bF("assets/icons/partnership/Asset8.png",s,s,s,s),s,s,s,s,s,new T.ad4(),s,s),1)],q),C.j,C.l,C.h,s),T.b2(H.a([T.a1(N.ay(U.bF("assets/icons/partnership/Asset4.png",s,s,s,s),s,s,s,s,s,new T.ad5(),s,s),1),T.a1(N.ay(U.bF("assets/icons/partnership/Asset6.png",s,s,s,s),s,s,s,s,s,new T.ad6(),s,s),1)],q),C.j,C.l,C.h,s),T.b2(H.a([T.a1(N.ay(U.bF("assets/icons/partnership/Asset5.png",s,s,s,s),s,s,s,s,s,new T.acY(),s,s),1),T.a1(N.ay(U.bF("assets/icons/partnership/Asset7.png",s,s,s,s),s,s,s,s,s,new T.acZ(),s,s),1)],q),C.j,C.l,C.h,s)],q),C.j,C.l,C.h),1)],q),C.j,C.l,C.h,s),s,s,s,s,s,s,s),M.h(s,new X.id("http://biteofart.org/",s),s,s,s,s,s,s,s)],q),C.j,C.l,C.h),s,s,s,s,s,new V.C(8,8,8,8),s),M.h(s,new N.nQ(s),s,s,s,s,s,s,s)],q),C.j,C.l,C.h),s,s)),M.rE(b),s)}}
 T.acV.prototype={
 $0:function(){$.bj().b9("open",[u.Y])},
 $S:1}
 T.acW.prototype={
-$0:function(){$.bj().b9("open",["https://biteofart.org/en/news/12"])},
+$0:function(){$.bj().b9("open",["https://biteofart.org/#/news/12"])},
 $S:1}
 T.acX.prototype={
 $0:function(){$.bj().b9("open",[$.ao5()])},
@@ -38321,7 +38321,7 @@ r=M.h(c,c,c,c,c,12,c,c,c)
 q=M.h(c,c,c,c,c,c,c,c,c)
 p=M.h(c,c,c,c,c,c,c,c,c)
 o=d.d
-o=M.h(c,o!=null?T.e5(C.H,H.a([T.aV(M.h(c,U.f3(new S.dL(C.q,t.J)),c,c,c,100,c,c,100),c,c),new T.cM(1.7777777777777777,o,c)],s),C.av):new T.cM(1.7777777777777777,M.hV(U.fB(C.c.S("http://biteofart.org/",a.e),C.bq,c).c),c),c,c,c,c,c,c,c)
+o=M.h(c,o!=null?T.e5(C.H,H.a([T.aV(M.h(c,U.f3(new S.dL(C.q,t.J)),c,c,c,100,c,c,100),c,c),new T.cM(1.7777777777777777,o,c)],s),C.av):new T.cM(1.7777777777777777,M.hV(U.fB(C.c.S("http://admin.biteofart.org/",a.e),C.bq,c).c),c),c,c,c,c,c,c,c)
 n=M.h(c,c,c,c,c,20,c,c,c)
 m=M.h(c,c,c,c,c,20,c,c,c)
 l=a.fx
@@ -38405,7 +38405,7 @@ F.afD.prototype={
 $0:function(){this.a.x=!0},
 $S:1}
 F.afI.prototype={
-$2:function(a,b){return M.hV(U.fB(C.c.S("http://biteofart.org/",this.a.a.c.fy[b]),C.bq,null).c)},
+$2:function(a,b){return M.hV(U.fB(C.c.S("http://admin.biteofart.org/",this.a.a.c.fy[b]),C.bq,null).c)},
 $C:"$2",
 $R:2,
 $S:157}
@@ -38476,7 +38476,7 @@ this.aM(0)},
 G:function(a,b){var s,r,q,p,o,n,m,l,k,j,i,h=this,g=null,f=T.a1E(),e=h.a.c,d=Y.rt(b,t.sW)
 L.dp(b,C.aH,t.F)
 s=h.d
-s=M.h(g,s!=null?T.e5(C.H,H.a([T.aV(M.h(g,U.f3(new S.dL(C.q,t.J)),g,g,g,100,g,g,100),g,g),new T.cM(1.7777777777777777,s,g)],t.t),C.av):new T.cM(1.7777777777777777,M.hV(U.fB(C.c.S("http://biteofart.org/",e.e),C.bq,g).c),g),g,g,g,g,g,g,g)
+s=M.h(g,s!=null?T.e5(C.H,H.a([T.aV(M.h(g,U.f3(new S.dL(C.q,t.J)),g,g,g,100,g,g,100),g,g),new T.cM(1.7777777777777777,s,g)],t.t),C.av):new T.cM(1.7777777777777777,M.hV(U.fB(C.c.S("http://admin.biteofart.org/",e.e),C.bq,g).c),g),g,g,g,g,g,g,g)
 r=M.h(g,g,g,g,g,20,g,g,g)
 q=e.fx
 p=t.mh
@@ -38541,7 +38541,7 @@ Y.afs.prototype={
 $1:function(a){$.bj().b9("open",[a])},
 $S:27}
 Y.aft.prototype={
-$2:function(a,b){return M.hV(U.fB(C.c.S("http://biteofart.org/",this.a.a.c.fy[b]),C.bq,null).c)},
+$2:function(a,b){return M.hV(U.fB(C.c.S("http://admin.biteofart.org/",this.a.a.c.fy[b]),C.bq,null).c)},
 $C:"$2",
 $R:2,
 $S:157}
@@ -38612,7 +38612,7 @@ G:function(a,b){var s,r=null,q=L.dp(b,C.aH,t.F),p=t.w,o=b.O(p).f.a.a>1200?1200:b
 p=b.O(p).f
 s=t.t
 return M.fj(T.aV(M.h(r,T.am(H.a([M.h(r,T.b2(H.a([T.a1(M.h(r,r,r,r,r,r,r,r,r),3),T.a1(M.h(r,r,r,r,r,r,r,r,r),1),T.a1(M.h(r,new A.iV(r),r,r,r,r,r,r,r),20),T.a1(M.h(r,r,r,r,r,r,r,r,r),1),T.a1(M.h(r,r,r,r,r,r,r,r,r),3)],s),C.j,C.l,C.h,r),r,r,r,r,r,new V.C(0,20,0,20),p.a.a),T.a1(T.b2(H.a([T.a1(M.h(r,r,r,r,r,r,r,r,r),1),T.a1(T.am(H.a([T.a1(M.h(r,new T.el(3,T.nM(C.p1,L.W(q.e.a.h(0,"main_events"),r,r,r,A.ax(r,r,C.O,r,r,r,r,r,r,r,r,r,r,C.ay,r,r,!0,-0.9,r,r,r,r,r),r),C.E,C.hm),r),r,r,r,r,r,r,r),9),T.a1(M.h(r,r,r,r,r,r,r,r,r),3)],s),C.T,C.l,C.h),3),T.a1(M.h(r,new B.cB($.an3,new T.ag3(this),r,r,t.rQ),r,r,r,r,r,r,r),20),T.a1(M.h(r,r,r,r,r,r,r,r,r),1),T.a1(M.h(r,r,r,r,r,r,r,r,r),3)],s),C.j,C.l,C.h,r),1)],s),C.j,C.l,C.h),r,r,r,r,r,r,o),r,r),r,r)},
-Xc:function(a,b){var s,r,q=null,p=S.va(),o=M.hV(U.fB(C.c.S("http://biteofart.org/",b.e),C.bq,q).c),n=M.h(q,q,q,q,q,5,q,q,q),m=b.fx,l=t.mh,k=b.fr,j=b.c
+Xc:function(a,b){var s,r,q=null,p=S.va(),o=M.hV(U.fB(C.c.S("http://admin.biteofart.org/",b.e),C.bq,q).c),n=M.h(q,q,q,q,q,5,q,q,q),m=b.fx,l=t.mh,k=b.fr,j=b.c
 j.toString
 j=C.d.i(H.eR(j))+"."+C.d.i(H.eS(j))+". - "
 s=b.d
@@ -38678,7 +38678,7 @@ s=t.w
 s=b.O(s).f.a.a>1200?1200:b.O(s).f.a.a
 r=t.t
 return M.fj(T.aV(M.h(q,T.am(H.a([M.h(q,new M.iW(q),q,q,q,q,q,q,q),T.a1(T.b2(H.a([T.a1(M.h(q,new B.cB($.an3,new F.afX(this),q,q,t.rQ),q,q,q,q,q,q,q),20)],r),C.j,C.l,C.h,q),1)],r),C.j,C.l,C.h),q,q,q,q,q,new V.C(8,0,8,8),s),q,q),M.rE(b),q)},
-Xd:function(a,b){var s,r,q=null,p=S.va(),o=M.hV(U.fB(C.c.S("http://biteofart.org/",b.e),C.bq,q).c),n=M.h(q,q,q,q,q,5,q,q,q),m=b.fx,l=t.mh,k=b.fr,j=b.c
+Xd:function(a,b){var s,r,q=null,p=S.va(),o=M.hV(U.fB(C.c.S("http://admin.biteofart.org/",b.e),C.bq,q).c),n=M.h(q,q,q,q,q,5,q,q,q),m=b.fx,l=t.mh,k=b.fr,j=b.c
 j.toString
 j=C.d.i(H.eR(j))+"."+C.d.i(H.eS(j))+". - "
 s=b.d
@@ -38731,7 +38731,7 @@ else return new F.wi(null)},
 $S:35}
 M.wj.prototype={
 G:function(a,b){return new B.cB($.an3,new M.ZT(this),null,null,t.rQ)},
-Xe:function(a,b){var s,r,q=null,p=S.va(),o=M.hV(U.fB(C.c.S("http://biteofart.org/",b.e),C.bq,q).c),n=M.h(q,q,q,q,q,5,q,q,q),m=b.fx,l=t.mh,k=b.fr,j=b.c
+Xe:function(a,b){var s,r,q=null,p=S.va(),o=M.hV(U.fB(C.c.S("http://admin.biteofart.org/",b.e),C.bq,q).c),n=M.h(q,q,q,q,q,5,q,q,q),m=b.fx,l=t.mh,k=b.fr,j=b.c
 j.toString
 j=C.d.i(H.eR(j))+"."+C.d.i(H.eS(j))+". - "
 s=b.d
@@ -38897,7 +38897,7 @@ h=b.O(h).f
 o=m.x?l:new B.agM(m)
 o=Z.ml(C.ai,!1,U.bF(k,l,l,l,l),C.E,new S.aK(0,40,0,1/0),0,2,!0,l,l,4,l,l,8,l,4,l,l,l,l,o,C.a_,C.ha,l,l,C.dD)
 n=m.y?l:new B.agN(m)
-return M.fj(E.ji(T.aV(T.am(H.a([M.h(l,T.am(H.a([new M.iW(l),f,q,r,s,T.e5(C.bv,H.a([e,T.aV(new T.ct(new V.C(0,h.a.a*9/32-30,0,0),M.h(l,T.aV(T.b2(H.a([o,Z.ml(C.ai,!1,U.bF(j,l,l,l,l),C.E,new S.aK(0,40,0,1/0),0,2,!0,l,l,4,l,l,8,l,4,l,l,l,l,n,C.a_,C.ha,l,l,C.dD)],p),C.j,C.cE,C.h,l),l,l),l,l,l,l,l,l,l),l),l,l)],p),C.av),M.h(l,new X.id("",l),l,l,l,l,l,l,l)],p),C.j,C.l,C.h),l,l,l,l,l,new V.C(8,0,8,8),g),M.h(l,new N.nQ(l),l,l,l,l,l,l,l)],p),C.j,C.l,C.h),l,l)),M.rE(b),l)}}
+return M.fj(E.ji(T.aV(T.am(H.a([M.h(l,T.am(H.a([new M.iW(l),f,q,r,s,T.e5(C.bv,H.a([e,T.aV(new T.ct(new V.C(0,h.a.a*9/32-30,0,0),M.h(l,T.aV(T.b2(H.a([o,Z.ml(C.ai,!1,U.bF(j,l,l,l,l),C.E,new S.aK(0,40,0,1/0),0,2,!0,l,l,4,l,l,8,l,4,l,l,l,l,n,C.a_,C.ha,l,l,C.dD)],p),C.j,C.cE,C.h,l),l,l),l,l,l,l,l,l,l),l),l,l)],p),C.av),M.h(l,new X.id("http://biteofart.org/",l),l,l,l,l,l,l,l)],p),C.j,C.l,C.h),l,l,l,l,l,new V.C(8,0,8,8),g),M.h(l,new N.nQ(l),l,l,l,l,l,l,l)],p),C.j,C.l,C.h),l,l)),M.rE(b),l)}}
 B.agK.prototype={
 $0:function(){var s,r,q=this.a
 q.d.p1(C.ar,C.aL)
@@ -38974,7 +38974,7 @@ else return new B.wG(null)},
 $S:35}
 G.xY.prototype={
 G:function(a,b){return new B.cB($.an4,new G.a4v(this),null,null,t.EY)},
-Xh:function(a,b){var s,r=null,q=S.va(),p=M.hV(U.fB(C.c.S("http://biteofart.org/",b.d),C.bq,r).c),o=M.h(r,r,r,r,r,5,r,r,r),n=L.W(b.b,2,C.bu,r,A.ax(r,r,r,r,r,r,r,r,r,r,r,r,r,C.A,r,r,!0,r,r,r,r,r,r),r),m=b.c
+Xh:function(a,b){var s,r=null,q=S.va(),p=M.hV(U.fB(C.c.S("http://admin.biteofart.org/",b.d),C.bq,r).c),o=M.h(r,r,r,r,r,5,r,r,r),n=L.W(b.b,2,C.bu,r,A.ax(r,r,r,r,r,r,r,r,r,r,r,r,r,C.A,r,r,!0,r,r,r,r,r,r),r),m=b.c
 m.toString
 s=t.t
 return N.ay(T.am(H.a([new T.cM(1.7777777777777777,new T.ev(q,p,r),r),o,M.h(r,T.am(H.a([n,L.W(C.d.i(H.eR(m))+"."+C.d.i(H.eS(m))+"."+C.d.i(H.kF(m))+".",r,r,r,r,r)],s),C.T,C.aV,C.h),r,r,r,80,r,r,r)],s),C.T,C.l,C.h),r,r,r,C.G,r,new G.a4t(a,b),C.a_,r)}}
@@ -39021,7 +39021,7 @@ s=M.h(e,T.b2(H.a([T.a1(M.h(e,e,e,e,e,e,e,e,e),3),T.a1(M.h(e,e,e,e,e,e,e,e,e),1),
 p=M.h(e,e,e,e,e,12,e,e,e)
 o=M.h(e,e,e,e,e,e,e,e,e)
 n=M.h(e,e,e,e,e,e,e,e,e)
-m=M.h(e,new T.cM(1.7777777777777777,M.hV(U.fB(C.c.S("http://biteofart.org/",c.d),C.bq,e).c),e),e,e,e,e,e,e,e)
+m=M.h(e,new T.cM(1.7777777777777777,M.hV(U.fB(C.c.S("http://admin.biteofart.org/",c.d),C.bq,e).c),e),e,e,e,e,e,e,e)
 l=M.h(e,e,e,e,e,20,e,e,e)
 k=M.h(e,e,e,e,e,20,e,e,e)
 j=L.W(c.b,e,e,e,A.ax(e,e,e,e,e,e,e,e,e,e,e,e,e,C.A,e,e,!0,e,e,e,e,e,e),e)
@@ -39078,7 +39078,7 @@ p:function(a){this.r.p(0)
 this.aM(0)},
 G:function(a,b){var s,r,q,p,o,n,m,l,k=null,j=T.a1E(),i=this.a.c,h=Y.rt(b,t.sW)
 L.dp(b,C.aH,t.F)
-s=M.h(k,new T.cM(1.7777777777777777,M.hV(U.fB(C.c.S("http://biteofart.org/",i.d),C.bq,k).c),k),k,k,k,k,k,k,k)
+s=M.h(k,new T.cM(1.7777777777777777,M.hV(U.fB(C.c.S("http://admin.biteofart.org/",i.d),C.bq,k).c),k),k,k,k,k,k,k,k)
 r=M.h(k,k,k,k,k,20,k,k,k)
 q=L.W(i.b,k,k,k,A.ax(k,k,k,k,k,k,k,k,k,k,k,k,k,C.A,k,k,!0,k,k,k,k,k,k),k)
 p=M.h(k,k,k,k,k,20,k,k,k)
@@ -39150,7 +39150,7 @@ G:function(a,b){var s,r=null,q=L.dp(b,C.aH,t.F),p=t.w,o=b.O(p).f.a.a>1200?1200:b
 p=b.O(p).f
 s=t.t
 return M.fj(T.aV(M.h(r,T.am(H.a([M.h(r,T.b2(H.a([T.a1(M.h(r,r,r,r,r,r,r,r,r),3),T.a1(M.h(r,r,r,r,r,r,r,r,r),1),T.a1(M.h(r,new A.iV(r),r,r,r,r,r,r,r),20),T.a1(M.h(r,r,r,r,r,r,r,r,r),1),T.a1(M.h(r,r,r,r,r,r,r,r,r),3)],s),C.j,C.l,C.h,r),r,r,r,r,r,new V.C(0,20,0,20),p.a.a),T.a1(T.b2(H.a([T.a1(M.h(r,r,r,r,r,r,r,r,r),1),T.a1(T.am(H.a([T.a1(M.h(r,new T.el(3,T.nM(C.p1,L.W(q.e.a.h(0,"main_news"),r,r,r,A.ax(r,r,C.O,r,r,r,r,r,r,r,r,r,r,C.ay,r,r,!0,-0.9,r,r,r,r,r),r),C.E,C.hm),r),r,r,r,r,r,r,r),9),T.a1(M.h(r,r,r,r,r,r,r,r,r),3)],s),C.T,C.l,C.h),3),T.a1(M.h(r,new B.cB($.an4,new X.adv(this),r,r,t.EY),r,r,r,r,r,r,r),20),T.a1(M.h(r,r,r,r,r,r,r,r,r),1),T.a1(M.h(r,r,r,r,r,r,r,r,r),3)],s),C.j,C.l,C.h,r),1)],s),C.j,C.l,C.h),r,r,r,r,r,r,o),r,r),r,r)},
-Yk:function(a,b){var s,r=null,q=S.va(),p=M.hV(U.fB(C.c.S("http://biteofart.org/",b.d),C.bq,r).c),o=M.h(r,r,r,r,r,5,r,r,r),n=L.W(b.b,2,C.bu,r,A.ax(r,r,r,r,r,r,r,r,r,r,r,r,r,C.A,r,r,!0,r,r,r,r,r,r),r),m=b.c
+Yk:function(a,b){var s,r=null,q=S.va(),p=M.hV(U.fB(C.c.S("http://admin.biteofart.org/",b.d),C.bq,r).c),o=M.h(r,r,r,r,r,5,r,r,r),n=L.W(b.b,2,C.bu,r,A.ax(r,r,r,r,r,r,r,r,r,r,r,r,r,C.A,r,r,!0,r,r,r,r,r,r),r),m=b.c
 m.toString
 s=t.t
 return T.am(H.a([N.ay(T.am(H.a([new T.cM(1.7777777777777777,new T.ev(q,p,r),r),o,M.h(r,T.am(H.a([n,L.W(C.d.i(H.eR(m))+"."+C.d.i(H.eS(m))+"."+C.d.i(H.kF(m))+".",r,r,r,r,r)],s),C.T,C.aV,C.h),r,r,r,80,r,r,r)],s),C.T,C.l,C.h),r,r,r,C.G,r,new X.ads(a,b),C.a_,r),M.h(r,r,r,r,r,40,r,r,r)],s),C.j,C.l,C.h)}}
@@ -39226,7 +39226,7 @@ $2:function(a,b){var s,r,q,p,o=null,n=this.a
 if(b>=n.d){if(!n.f){n.qo(J.bw(this.b.b))
 P.ec(n.d)}return T.aV(M.h(o,U.f3(new S.dL(C.q,t.J)),o,o,o,200,o,new V.C(50,50,50,50),200),o,o)}n=J.hA(this.b.b,b)
 s=a.O(t.w).f
-r=T.a1(new T.ev(S.va(),M.hV(U.fB(C.c.S("http://biteofart.org/",n.d),C.bq,o).c),o),9)
+r=T.a1(new T.ev(S.va(),M.hV(U.fB(C.c.S("http://admin.biteofart.org/",n.d),C.bq,o).c),o),9)
 q=L.W(n.b,2,C.bu,o,A.ax(o,o,o,o,o,o,o,o,o,o,o,o,o,C.A,o,o,!0,o,o,o,o,o,o),o)
 n=n.c
 n.toString
@@ -39280,10 +39280,10 @@ N.nQ.prototype={
 G:function(a,b){var s=null,r=L.dp(b,C.aH,t.F),q=t.t
 return M.h(s,T.am(H.a([T.b2(H.a([N.ay(L.W(r.c.a.h(0,"login"),s,s,s,A.ax(s,s,C.o,s,s,s,s,s,s,s,s,s,s,C.A,s,s,!0,s,s,s,s,s,s),s),s,1,s,C.G,1,new N.a_F(),new V.C(8,8,8,8),s)],q),C.j,C.a8,C.h,s),N.ay(L.W(r.c.a.h(0,"bite_membership"),s,s,s,A.ax(s,s,C.o,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s),s),s,1,s,C.G,1,new N.a_G(),new V.C(8,8,8,8),s),new T.ct(C.pB,U.bF("assets/images/creative_europe.png",s,s,s,400),s)],q),C.j,C.l,C.h),C.O,s,s,s,s,new V.C(20,20,20,20),s)}}
 N.a_F.prototype={
-$0:function(){$.bj().b9("open",["https://biteofart.org/en/login"])},
+$0:function(){$.bj().b9("open",["https://admin.biteofart.org/en/login"])},
 $S:1}
 N.a_G.prototype={
-$0:function(){$.bj().b9("open",["https://biteofart.org/en/login"])},
+$0:function(){$.bj().b9("open",["https://admin.biteofart.org/en/login"])},
 $S:1}
 A.iV.prototype={
 G:function(a,b){var s,r,q,p,o=null,n=" | ",m=Y.rt(b,t.sW),l=L.dp(b,C.aH,t.F),k=M.h(o,N.ay(U.bF("assets/images/logoveci.png",C.q,o,o,o),o,o,C.o,o,o,new A.a0u(b),o,o),o,o,o,90,o,o,o),j=t.t,i=T.b2(H.a([N.ay(L.W(l.d.a.h(0,"home"),o,o,o,o,o),o,1,o,C.G,1,new A.a0v(b),new V.C(4,0,4,0),o),L.W(n,o,o,o,o,o),N.ay(L.W(l.d.a.h(0,"events"),o,o,o,o,o),o,1,o,C.G,1,new A.a0w(b),new V.C(4,0,4,0),o),L.W(n,o,o,o,o,o),N.ay(L.W(l.d.a.h(0,"news"),o,o,o,o,o),o,1,o,C.G,1,new A.a0x(b),new V.C(4,0,4,0),o)],j),C.j,C.kc,C.h,o),h=T.b2(H.a([N.ay(L.W(l.d.a.h(0,"aboutbite"),o,o,o,o,o),o,1,o,C.G,1,new A.a0y(b),new V.C(4,0,4,0),o),L.W(n,o,o,o,o,o),N.ay(L.W(l.d.a.h(0,"contact"),o,o,o,o,o),o,1,o,C.G,1,new A.a0z(b),new V.C(4,0,4,0),o)],j),C.j,C.kc,C.h,o),g=T.b2(H.a([L.W("",o,o,o,o,o)],j),C.j,C.l,C.h,o),f=m.a,e=N.ay(L.W("Eng",o,o,o,A.ax(o,o,o,o,o,o,o,o,o,o,o,o,o,f.gbc(f)==="en"?C.A:C.L,o,o,!0,o,o,o,o,o,o),o),o,1,o,C.G,1,new A.a0A(m),new V.C(4,0,4,0),o),d=L.W(n,o,o,o,o,o)
@@ -82005,9 +82005,9 @@ r($,"aO5","ary",function(){return function DartObject(a){this.o=a}})
 r($,"aM7","dJ",function(){return H.m6(H.aDu(H.na(H.a([1],t.Y))).buffer,0,null).getInt8(0)===1?C.aI:C.Fj})
 r($,"aOE","arE",function(){return new P.Ew(P.y(t.N,H.aj("C6<n5>?")))})
 r($,"aOV","eI",function(){return new P.a5r(P.y(t.N,H.aj("aQ(p)")),P.y(t.S,t.h))})
-q($,"aP8","arJ",function(){return"http://biteofart.org/#/events"})
-q($,"aP7","ao4",function(){return"http://biteofart.org/#/event/"})
-q($,"aP9","ao5",function(){return"http://biteofart.org/#/news/"})
+q($,"aP8","arJ",function(){return"http://admin.biteofart.org/#/events"})
+q($,"aP7","ao4",function(){return"http://admin.biteofart.org/c"})
+q($,"aP9","ao5",function(){return"http://admin.biteofart.org/#/news/"})
 q($,"aMi","dw",function(){return new L.Gc(new Y.a7b(H.a([],t.ws)))})
 q($,"aMg","ayu",function(){return R.qH(new Z.a_0())})
 q($,"aMb","ayp",function(){return R.qH(new Z.a__())})
