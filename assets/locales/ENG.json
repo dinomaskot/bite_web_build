@@ -19,8 +19,8 @@
   },
   "Main": {
     "main_events": "Events",
-    "main_past_events": "Past events",
-    "main_future_events": "Future Events",
+    "main_past_events": "Older events",
+    "main_future_events": "Newer events",
     "main_news": "News",
     "main_older_news": "Older news",
     "main_newer_news": "Newer news"

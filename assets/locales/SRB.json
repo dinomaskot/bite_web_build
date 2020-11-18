@@ -19,8 +19,8 @@
   },
   "Main": {
     "main_events": "Događaji",
-    "main_past_events": "Prethodni događaji",
-    "main_future_events": "Budući Događaji",
+    "main_past_events": "Stariji događaji",
+    "main_future_events": "Noviji događaji",
     "main_news": "Vesti",
     "main_older_news": "Starije vesti",
     "main_newer_news": "Novije vesti"
@@ -35,7 +35,7 @@
     "bite_mail": "office@biteofart.org"
   },
   "About": {
-    "about": "About",
+    "about": "O BITE-u",
     "partners": "Partneri",
     "aboutIcon1": "Vaš lični\nvirtuelni kustos",
     "aboutIcon2": "360 Tura",
