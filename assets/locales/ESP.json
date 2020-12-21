@@ -32,7 +32,9 @@
     "followus": "SÌguenos",
     "contact": "Contacto",
     "send": "Enviar",
-    "bite_mail": "office@biteofart.org"
+    "bite_mail": "office@biteofart.org",
+    "sent": "EXPEDIDO",
+    "error": "Error"
   },
   "About": {
     "about": "Sobre BITE",

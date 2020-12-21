@@ -32,7 +32,9 @@
     "followus": "Follow us",
     "contact": "Contact",
     "send": "Send",
-    "bite_mail": "office@biteofart.org"
+    "bite_mail": "office@biteofart.org",
+    "sent": "SENT",
+    "error": "Error"
   },
   "About": {
     "about": "About",

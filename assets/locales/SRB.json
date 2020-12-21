@@ -32,7 +32,9 @@
     "followus": "Pratite nas",
     "contact": "Kontakt",
     "send": "Pošalji",
-    "bite_mail": "office@biteofart.org"
+    "bite_mail": "office@biteofart.org",
+    "sent": "POSLATO",
+    "error": "Error"
   },
   "About": {
     "about": "O BITE-u",
