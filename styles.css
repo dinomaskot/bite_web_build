@@ -4,7 +4,6 @@ body {
 	width: 100%;
 	/* background-color: #fc7753; */
 }
-
 .center {
 	align-items: center;
 	display: flex;
@@ -181,4 +180,3 @@ body {
 	100% {
 		transform: translate(24px, 0);
 	} */
-}
